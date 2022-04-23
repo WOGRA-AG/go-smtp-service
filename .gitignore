@@ -13,3 +13,4 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+go-smtp-service-main/smtp-service-logs.txt
