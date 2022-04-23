@@ -1,0 +1,54 @@
+2022/04/23 16:53:03.903388 C:/projects/go-projects/go-smtp-service/main.go:21: Starting smtp-service
+2022/04/23 16:53:03.960427 C:/projects/go-projects/go-smtp-service/main.go:24: Adding routes
+2022/04/23 16:53:03.961046 C:/projects/go-projects/go-smtp-service/main.go:28: Run router
+2022/04/23 16:53:18.148589 C:/projects/go-projects/smtpwebservice/smtpwebservice.go:55: &{{0xc0000ce000 -1 200} 0xc000094100 0xc000094200 [] [0xa987e0 0xa99720 0xaa20c0] 2 /sendMail/ 0xc000153520 0xc0000a8090 0xc0000a80a8 {{0 0} 0 0 0 0} map[]  [] map[] map[] 0}
+2022/04/23 16:53:18.148589 C:/projects/go-projects/smtpwebservice/smtpwebservice.go:64: { []   }
+2022/04/23 16:53:18.148589 C:/projects/go-projects/configreader/configreader.go:102: Token is empty.
+2022/04/23 16:53:18.148589 C:/projects/go-projects/smtpwebservice/smtpwebservice.go:79: Accesstoken  not allowed.
+2022/04/23 16:55:43.867588 C:/projects/go-projects/go-smtp-service/main.go:21: Starting smtp-service
+2022/04/23 16:55:43.911359 C:/projects/go-projects/go-smtp-service/main.go:24: Adding routes
+2022/04/23 16:55:43.911359 C:/projects/go-projects/go-smtp-service/main.go:28: Run router
+2022/04/23 16:55:49.388333 C:/projects/go-projects/smtpwebservice/smtpwebservice.go:63: { []  }
+2022/04/23 16:55:49.392811 C:/projects/go-projects/configreader/configreader.go:85: Tokens read: {[{1 internal internal} {2 internal internal} {3 internal internal}]}
+2022/04/23 16:55:49.392811 C:/projects/go-projects/configreader/configreader.go:113: Given AccesToken found.
+2022/04/23 16:55:49.394512 C:/projects/go-projects/smtpsender/smtpsender.go:23: Content: >>>>From: 
+To: 
+Subject: 
+
+
+<<<<
+2022/04/23 16:55:49.826221 C:/projects/go-projects/smtpsender/smtpsender.go:31: 503 valid RCPT command must precede DATA
+2022/04/23 16:55:49.826221 C:/projects/go-projects/smtpwebservice/smtpwebservice.go:70: 503 valid RCPT command must precede DATA
+2022/04/23 17:01:31.570307 C:/projects/go-projects/go-smtp-service/main.go:21: Starting smtp-service
+2022/04/23 17:01:31.620719 C:/projects/go-projects/go-smtp-service/main.go:24: Adding routes
+2022/04/23 17:01:31.621309 C:/projects/go-projects/go-smtp-service/main.go:28: Run router
+2022/04/23 17:01:33.803467 C:/projects/go-projects/smtpwebservice/smtpwebservice.go:63: {wgrasshof@wolfi.ws [wg@wogra.com info@wogra.com] Das ist ein Test Ich teste einen Mail Restservice. 1}
+2022/04/23 17:01:33.805081 C:/projects/go-projects/configreader/configreader.go:85: Tokens read: {[{1 internal internal} {2 internal internal} {3 internal internal}]}
+2022/04/23 17:01:33.805081 C:/projects/go-projects/configreader/configreader.go:113: Given AccesToken found.
+2022/04/23 17:01:33.806107 C:/projects/go-projects/smtpsender/smtpsender.go:23: Content: >>>>From: wgrasshof@wolfi.ws
+To: wg@wogra.com,info@wogra.com
+Subject: Das ist ein Test
+
+Ich teste einen Mail Restservice.
+<<<<
+2022/04/23 17:03:10.554678 C:/projects/go-projects/smtpwebservice/smtpwebservice.go:63: {wg@wogra.com [wg@wogra.com info@wogra.com] Das ist ein Test Ich teste einen Mail Restservice. 1}
+2022/04/23 17:03:10.555554 C:/projects/go-projects/configreader/configreader.go:85: Tokens read: {[{1 internal internal} {2 internal internal} {3 internal internal}]}
+2022/04/23 17:03:10.555554 C:/projects/go-projects/configreader/configreader.go:113: Given AccesToken found.
+2022/04/23 17:03:10.556096 C:/projects/go-projects/smtpsender/smtpsender.go:23: Content: >>>>From: wg@wogra.com
+To: wg@wogra.com,info@wogra.com
+Subject: Das ist ein Test
+
+Ich teste einen Mail Restservice.
+<<<<
+2022/04/23 17:06:11.166343 C:/projects/go-projects/go-smtp-service/main.go:21: Starting smtp-service
+2022/04/23 17:06:11.210123 C:/projects/go-projects/go-smtp-service/main.go:24: Adding routes
+2022/04/23 17:06:11.210640 C:/projects/go-projects/go-smtp-service/main.go:28: Run router
+2022/04/23 17:06:17.945264 C:/projects/go-projects/smtpwebservice/smtpwebservice.go:63: {wg@wogra.com [wg@wogra.com info@wogra.com] Das ist ein Test Ich teste einen Mail Restservice. {1 internal internal}}
+2022/04/23 17:06:17.945503 C:/projects/go-projects/configreader/configreader.go:85: Tokens read: {[{1 internal internal} {2 internal internal} {3 internal internal}]}
+2022/04/23 17:06:17.945503 C:/projects/go-projects/configreader/configreader.go:113: Given AccesToken found.
+2022/04/23 17:06:17.946015 C:/projects/go-projects/smtpsender/smtpsender.go:23: Content: >>>>From: wg@wogra.com
+To: wg@wogra.com,info@wogra.com
+Subject: Das ist ein Test
+
+Ich teste einen Mail Restservice.
+<<<<

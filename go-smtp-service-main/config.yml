@@ -1,0 +1,5 @@
+User: "smtp_user"
+Password: "smtp_password"
+Smtpserver: "example.smtp.server.com"
+Smtpport: "25"
+SenderAddress: "example@example.com"
