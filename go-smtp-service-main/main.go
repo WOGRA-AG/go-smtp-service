@@ -1,9 +1,9 @@
 package main
 
 import (
-	"wogra.com/smtpwebservice"
-
 	"github.com/gin-gonic/gin"
+	"wogra.com/configReader"
+	"wogra.com/smtpwebservice"
 
 	"log"
 	"os"
@@ -26,5 +26,10 @@ func main() {
 	router.POST("/sendMail/", smtpwebservice.SendMail)
 
 	log.Println("Run router")
-	router.Run("localhost:8080")
+
+	restConfig := configReader.ReadRestConfiguration()
+
+	connection := restConfig.Host + ":" + restConfig.Port
+
+	router.Run(connection)
 }

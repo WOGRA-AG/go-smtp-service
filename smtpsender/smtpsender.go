@@ -24,7 +24,6 @@ func SmtpSender(from string, to []string, subject string, message string) error 
 	msg := []byte(mailContent)
 
 	auth := smtp.PlainAuth("", conf.User, conf.Password, conf.Smtpserver)
-
 	err := smtp.SendMail(smtpAddress, auth, conf.SenderAddress, to, msg)
 
 	if err != nil {
